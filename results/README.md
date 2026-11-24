@@ -1,1 +1,3 @@
-Corrected common-seed results. Eight newly trained CNN_LSTM_DA/PI_STHNN seed3407 cases replace mistyped seed3047 cases; the other92 cases are unchanged. Same frozen models and source-validation checkpoint rules. Mean and sampleSD(ddof=1). Training protocols still differ across models. See docs/seed3407_verification.json.
+# Baseline results
+
+The results cover five baselines on FD001–FD004 using seeds 3407, 2024, 137, 123, and 12345. Each run uses the checkpoint selected on source validation. The summary reports means and sample standard deviations across seeds. Training protocols vary by model.

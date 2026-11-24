@@ -25,7 +25,7 @@ Use `--data-dir` and `--output-dir` to set data and new training output director
 | CNN_LSTM_DA, PI_STHNN | 3407,2024,137,123,12345 |
 | STHNN, ASTHGNN, STFA | 3407,2024,137,123,12345 |
 
-All five models now use the same five seed values. Eight genuinely trained seed3407 cases replace the mistyped seed3047 cases for CNN_LSTM_DA and PI_STHNN; the other92 cases are retained. Training splits and preprocessing still differ across models.
+All five baselines use the seed values listed above. Training splits and preprocessing vary by model.
 
 ## Results and contents
 
