@@ -1,6 +1,6 @@
 # BPG-LSTM and five C-MAPSS baselines
 
-This release contains the five locally reconstructed models used in the adopted results: CNN-LSTM with wcMMD Pattern II, PI-STHNN with final softmax fusion, STHNN, seed-corrected ASTHGNN, and validation-selected STFA. Source, active settings, and result tables are synchronized. These are paper-based reconstructions, not confirmed author code.
+This release contains the five locally reconstructed models used in the adopted results: CNN-LSTM + wcMMD (Pattern II), PI-STHNN with final softmax fusion, STHNN, seed-corrected ASTHGNN, and validation-selected STFA. Source, active settings, and result tables are synchronized. These are paper-based reconstructions, not confirmed author code.
 
 The proposed [BPG-LSTM](models/BPG_LSTM/) has its own runner and historical run provenance.
 
@@ -22,7 +22,7 @@ Use `--data-dir` and `--output-dir` to set data and new training output director
 
 | Models | Seeds |
 |---|---|
-| CNN_LSTM_DA, PI_STHNN | 3407,2024,137,123,12345 |
+| CNN-LSTM + wcMMD, PI_STHNN | 3407,2024,137,123,12345 |
 | STHNN, ASTHGNN, STFA | 3407,2024,137,123,12345 |
 
 All five baselines use the seed values listed above. Training splits and preprocessing vary by model.

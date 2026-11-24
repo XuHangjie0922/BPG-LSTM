@@ -1,4 +1,4 @@
-# CNN_LSTM_DA
+# CNN-LSTM + wcMMD
 
 Final version: wcMMD PatternII.
 
