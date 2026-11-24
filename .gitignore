@@ -1,0 +1,21 @@
+# Local datasets and generated training outputs
+/data/CMAPSS/*
+!/data/CMAPSS/.gitkeep
+/runs/
+/checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.log
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+.DS_Store
+Thumbs.db
+.ipynb_checkpoints/
+
+/models/BPG_LSTM/outputs/
+/models/BPG_LSTM/results/

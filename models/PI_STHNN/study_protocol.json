@@ -1,0 +1,47 @@
+{
+  "identity": "Bounded self-reconstruction study of PI-STHNN; not author code",
+  "subsets": [
+    "FD001",
+    "FD002",
+    "FD003",
+    "FD004"
+  ],
+  "methods": [
+    "paper_window"
+  ],
+  "paper_count_implied_windows": {
+    "FD001": 35,
+    "FD002": 60,
+    "FD003": 54,
+    "FD004": 80
+  },
+  "paper_training_counts": {
+    "FD001": 13785,
+    "FD002": 30736,
+    "FD003": 15536,
+    "FD004": 33263
+  },
+  "window_hypothesis_limit": "These windows match ceil(0.8*all complete windows) in Table2, contradicting Table3W30. Arithmetic matching is not confirmation of author preprocessing. Never use random overlapping-window validation to match counts.",
+  "split": "Original engine-disjoint80/20 split, seed42; fitting-only graph and scaler",
+  "common_validation": "For every method, evaluate only engine-cycle endpoints at or beyond the implied window of that subset. Assert identical (unit,cycle,label) hashes across methods.",
+  "training": "50 complete epochs, batch256, MSE, Adam, StepLR50/gamma0.1; lr/wd from previously locked stage2 choices; LSTM dropout0; RULcap125",
+  "screen_seed": 42,
+  "final_seeds": [
+    3407,
+    2024,
+    137,
+    123,
+    12345
+  ],
+  "method_details": {
+    "paper_window": "Final long-window reconstruction with softmax fusion; all other adopted parameters unchanged"
+  },
+  "checkpoint": "Minimum RMSE on common internal validation endpoints; no early stopping or test-label selection",
+  "selection": "One common method for ALL4 subsets. Eligible if all4 screen jobs finish finitely, mean relative validation RMSE vs matched control <=-2%, at least2 subsets improve >=1%, and no subset worsens >3%. Lowest mean relative RMSE wins; exact ties preserve listed order.",
+  "no_candidate_passes": "Stop with a negative-result report. No automatic expansion or official-test search.",
+  "candidate_passes": "Lock one method, then run matched control and selected method from scratch across all4 subsets and all5 fixed seeds:40 full runs, common validation protocol, one official endpoint per engine after checkpoint choice.",
+  "budget": "20 source-only screen runs; at most40 subsequent full matched runs",
+  "official_label_policy": "No official test features or labels during screen/selection. No seed replacement. Failed runs retained, no silent retries.",
+  "resource_policy": "One CUDA worker; wait for >=2200MiB free before each job; never terminate unrelated processes",
+  "interpretation": "Internal exploratory reconstruction plus retrospective official comparison. Neither independent validation nor guaranteed published-RMSE replication. Existing results and frozen baseline remain unchanged."
+}

@@ -1,0 +1,369 @@
+{
+  "checks": "All 20 historical run metrics and configurations matched the manuscript result source. Checkpoint hashes matched the recorded provenance. Only the data path was adapted in the training modules.",
+  "seed_selection": "The five runs per subset come from a retrospective selection using previously inspected official terminal RMSE. This is not an independent validation.",
+  "historical_trainer_sha256": "72ca4f3e99770b60880076b2504d2a3b6d12cc9ff2192bf0979a0c84af18d6dc",
+  "runs": [
+    {
+      "fd": "FD001",
+      "seed": 3407,
+      "checkpoint_sha256": "87fdc3cd84f52013d81b65482e5a5f2468de4d2e21990957fde0e405963e151f",
+      "metrics_sha256": "2070a483dd3ca8fabedcf8399bdb861643b82fbea203d59e0e03765fce256756",
+      "source_revision": "fixed-condition trainer",
+      "metrics": {
+        "rmse": 12.309765918839945,
+        "mae": 8.948630052804948,
+        "nasa": 251.37828556711636
+      }
+    },
+    {
+      "fd": "FD001",
+      "seed": 2024,
+      "checkpoint_sha256": "97d897e1cc69b2907d508a6c7a9241b644ebc4fecd68b77411876be5112d3296",
+      "metrics_sha256": "0542321fc0a323d54d27587a199190441596d13157cf8c0d5c77f8647ffa28ff",
+      "source_revision": "fixed-condition trainer",
+      "metrics": {
+        "rmse": 12.534295177225387,
+        "mae": 9.38329218864441,
+        "nasa": 250.0634919107573
+      }
+    },
+    {
+      "fd": "FD001",
+      "seed": 137,
+      "checkpoint_sha256": "f2209661731bd9607e74296adcebcbd2985848fc94753dcfe28ded6f48a54ac5",
+      "metrics_sha256": "5a09f8ef4075706065b78037c058489b648170af4afae174604e453674c42bff",
+      "source_revision": "fixed-condition trainer",
+      "metrics": {
+        "rmse": 12.98283176718164,
+        "mae": 9.77567556142807,
+        "nasa": 290.8767024364265
+      }
+    },
+    {
+      "fd": "FD001",
+      "seed": 123,
+      "checkpoint_sha256": "20c36de0ac33ff50cb22fb1cbcb99a3be6cbb00fa0c934178760becfc3676f7e",
+      "metrics_sha256": "8e7688863b75c2b1ff6b3d6494be9f19ddfb502538dd594831ac0e140db2458d",
+      "source_revision": "fixed-condition trainer",
+      "metrics": {
+        "rmse": 12.978748578196415,
+        "mae": 9.561258282661438,
+        "nasa": 334.0008930036745
+      }
+    },
+    {
+      "fd": "FD001",
+      "seed": 12345,
+      "checkpoint_sha256": "a00c1f36deed22a92964f86950b636fdadd9445964f559b6270f654ef7b64892",
+      "metrics_sha256": "b4ee260a872d01aaeeedffd909e1497ed59fa2c774c4e355bf805b08565c8ff8",
+      "source_revision": "fixed-condition trainer",
+      "metrics": {
+        "rmse": 12.750391737103614,
+        "mae": 9.459215240478516,
+        "nasa": 257.0007575830305
+      }
+    },
+    {
+      "fd": "FD002",
+      "seed": 3407,
+      "checkpoint_sha256": "722c49b9c94d61de054fde48a9bcc1dffde755faab3be413a84a259af1021c07",
+      "metrics_sha256": "5188d1b387ec6d3546f478ea08b07c645412fbc0148110d2aabf938117b5eac0",
+      "source_revision": "fixed-condition trainer",
+      "metrics": {
+        "rmse": 12.489148455293268,
+        "mae": 8.842151430122641,
+        "nasa": 734.6747910030145
+      }
+    },
+    {
+      "fd": "FD002",
+      "seed": 2024,
+      "checkpoint_sha256": "9f2ab591e7ae46d1a7cd58308f1785b7e27799da725e2dbb91e9acf41d0415b4",
+      "metrics_sha256": "aa967aac830a8925b10f6e8d2eb9e3a56944fc9f6664d562ce48c957f10e9603",
+      "source_revision": "fixed-condition trainer",
+      "metrics": {
+        "rmse": 12.131286753260733,
+        "mae": 9.224965734371347,
+        "nasa": 580.7744735745154
+      }
+    },
+    {
+      "fd": "FD002",
+      "seed": 137,
+      "checkpoint_sha256": "df3d7e7fcf0751f5aae1205460dde3618e13e1a2062336ad6996b5230fa36b00",
+      "metrics_sha256": "5685a703504f1d7b5610059c0a595f4d31d438c4b43ea1cc2f6eb68e9aa0a010",
+      "source_revision": "fixed-condition trainer",
+      "metrics": {
+        "rmse": 12.763157735721084,
+        "mae": 8.91269430046376,
+        "nasa": 704.4024456622737
+      }
+    },
+    {
+      "fd": "FD002",
+      "seed": 123,
+      "checkpoint_sha256": "ad311670610ea759434c53d1693dd09f568d30031bcf622a3b16c6eb3ebe33f8",
+      "metrics_sha256": "422a7284e89bff51ff0c6e3555839c803930189a3f1f695153adee67f07a9605",
+      "source_revision": "fixed-condition trainer",
+      "metrics": {
+        "rmse": 11.813282285281671,
+        "mae": 8.980609069229553,
+        "nasa": 541.7252828182235
+      }
+    },
+    {
+      "fd": "FD002",
+      "seed": 12345,
+      "checkpoint_sha256": "e432f955030e5b42a720746a1e9796f48ef232a0845c6d7010478b1dbdf90b9e",
+      "metrics_sha256": "79a5002f9757e95da59e38e7b6d0782a8cdd67ccd740c9d11d28aa076f931fd5",
+      "source_revision": "fixed-condition trainer",
+      "metrics": {
+        "rmse": 12.363352159865848,
+        "mae": 8.903109674748306,
+        "nasa": 621.9771535616637
+      }
+    },
+    {
+      "fd": "FD003",
+      "seed": 3407,
+      "checkpoint_sha256": "6a8aa5e2a9f595ad8f198a8149e710fde280f3ecea6f17ce2bcd41a1a2207500",
+      "metrics_sha256": "def0797e701ed259c3a9c2aca27059a24ec12c08957c2ae0f8eba08c84af1791",
+      "source_revision": "fixed-condition trainer",
+      "metrics": {
+        "rmse": 11.886678781606866,
+        "mae": 8.228790502548218,
+        "nasa": 249.167473520544
+      }
+    },
+    {
+      "fd": "FD003",
+      "seed": 2024,
+      "checkpoint_sha256": "05cfa25446a0ff844b496b68185c7c97ea8b6b311bb65d51ba12cf09d9210de3",
+      "metrics_sha256": "e0817e311370231510767845820e45f22fd0ea684636d98feaf42d20da32d6c4",
+      "source_revision": "fixed-condition trainer",
+      "metrics": {
+        "rmse": 11.982108157339013,
+        "mae": 8.543292081356048,
+        "nasa": 255.10413015498034
+      }
+    },
+    {
+      "fd": "FD003",
+      "seed": 137,
+      "checkpoint_sha256": "e15eca644e4a740841865b247b1853d3ee3aaeb5f7d1efe4cbe91f181e6123c0",
+      "metrics_sha256": "2c696bda5731e144b417b66e17f62bdccf0447eda05723ef0a9cb23d6af8c501",
+      "source_revision": "fixed-condition trainer",
+      "metrics": {
+        "rmse": 11.771824752341168,
+        "mae": 8.474357211589814,
+        "nasa": 218.42045783813987
+      }
+    },
+    {
+      "fd": "FD003",
+      "seed": 123,
+      "checkpoint_sha256": "213210498ea099b4d81bbe91a11e1011af2c8f736ea719d2c112fbd3eb5b20d7",
+      "metrics_sha256": "14193ab7b25c1a577ce95975735b43355155335f77e95bf24b334409f59bf285",
+      "source_revision": "fixed-condition trainer",
+      "metrics": {
+        "rmse": 12.390225930207585,
+        "mae": 8.696622071266175,
+        "nasa": 227.70715186003093
+      }
+    },
+    {
+      "fd": "FD003",
+      "seed": 12345,
+      "checkpoint_sha256": "20559525c90f43946e017c24985f1be9cc1d5e6c3fc95940d9975efe8eca1095",
+      "metrics_sha256": "e76fc3b963c4f2bf68c38a646ad05e817a736504d636e3bf84333a82e8de93ca",
+      "source_revision": "fixed-condition trainer",
+      "metrics": {
+        "rmse": 11.736540530073064,
+        "mae": 8.29852679014206,
+        "nasa": 238.3301798846476
+      }
+    },
+    {
+      "fd": "FD004",
+      "seed": 3407,
+      "checkpoint_sha256": "0a1927cb22159cec6fd072df48690a016b50a076a686f83e548544deeb229e1b",
+      "metrics_sha256": "ffd96f1b96e0676a25ca4d79c90df48799ec373f3056f345ebd611c5095fbf4e",
+      "source_revision": "fixed-condition trainer",
+      "metrics": {
+        "rmse": 13.245352944380421,
+        "mae": 8.88885812605581,
+        "nasa": 898.1030217550058
+      }
+    },
+    {
+      "fd": "FD004",
+      "seed": 2024,
+      "checkpoint_sha256": "534589ee19e64146ca92a0ac7b9592b061ee172c8dc6b2d08852276c3ed52c98",
+      "metrics_sha256": "4ab6c73acf7e8b5185c6f98e3364ae32464109738a5c953f3674ebadf329a763",
+      "source_revision": "earlier frozen trainer",
+      "metrics": {
+        "rmse": 13.3335527090679,
+        "mae": 9.30313543542739,
+        "nasa": 853.7205317460733
+      }
+    },
+    {
+      "fd": "FD004",
+      "seed": 137,
+      "checkpoint_sha256": "42027b18396850e074023825aad58c9454051a7d98b6790d4b434f29cd05a533",
+      "metrics_sha256": "b42307a15b0502fe897f795a3d904b060e1337977358eaf9cd86847b323a09da",
+      "source_revision": "earlier frozen trainer",
+      "metrics": {
+        "rmse": 12.602005527020076,
+        "mae": 8.879159675490472,
+        "nasa": 647.6723108130509
+      }
+    },
+    {
+      "fd": "FD004",
+      "seed": 123,
+      "checkpoint_sha256": "41828c86a4409812fff370bc80300b9bfeab304db78b203306ab7ed48228cee0",
+      "metrics_sha256": "fb3c09e87cef5d566aeae90731e2af2c37899c14f1ac6c566de345eaa2267238",
+      "source_revision": "fixed-condition trainer",
+      "metrics": {
+        "rmse": 13.028950925459304,
+        "mae": 9.151040676140017,
+        "nasa": 747.3038097336514
+      }
+    },
+    {
+      "fd": "FD004",
+      "seed": 12345,
+      "checkpoint_sha256": "066d6190b5a052965339b51776f1d3941968109a9b43bf5fba016048021074c5",
+      "metrics_sha256": "9339604abb19ca25d5c8143698f030eb036585daa8493251b64d1c821d318af4",
+      "source_revision": "fixed-condition trainer",
+      "metrics": {
+        "rmse": 13.946169439340297,
+        "mae": 9.7995205233174,
+        "nasa": 907.0300919939582
+      }
+    }
+  ],
+  "inference_verification": [
+    {
+      "fd": "FD001",
+      "seed": 3407,
+      "test_engines": 100,
+      "max_abs_prediction_difference": 3.7329101587602054e-06
+    },
+    {
+      "fd": "FD001",
+      "seed": 2024,
+      "test_engines": 100,
+      "max_abs_prediction_difference": 3.6791992243934146e-06
+    },
+    {
+      "fd": "FD001",
+      "seed": 137,
+      "test_engines": 100,
+      "max_abs_prediction_difference": 3.8012695284805886e-06
+    },
+    {
+      "fd": "FD001",
+      "seed": 123,
+      "test_engines": 100,
+      "max_abs_prediction_difference": 4.736328122589839e-06
+    },
+    {
+      "fd": "FD001",
+      "seed": 12345,
+      "test_engines": 100,
+      "max_abs_prediction_difference": 3.6669921854581844e-06
+    },
+    {
+      "fd": "FD002",
+      "seed": 3407,
+      "test_engines": 259,
+      "max_abs_prediction_difference": 4.765624993297024e-06
+    },
+    {
+      "fd": "FD002",
+      "seed": 2024,
+      "test_engines": 259,
+      "max_abs_prediction_difference": 3.7426757870662186e-06
+    },
+    {
+      "fd": "FD002",
+      "seed": 137,
+      "test_engines": 259,
+      "max_abs_prediction_difference": 3.911132807843387e-06
+    },
+    {
+      "fd": "FD002",
+      "seed": 123,
+      "test_engines": 259,
+      "max_abs_prediction_difference": 3.8037109391098056e-06
+    },
+    {
+      "fd": "FD002",
+      "seed": 12345,
+      "test_engines": 259,
+      "max_abs_prediction_difference": 4.4677734365450306e-06
+    },
+    {
+      "fd": "FD003",
+      "seed": 3407,
+      "test_engines": 100,
+      "max_abs_prediction_difference": 3.8037109391098056e-06
+    },
+    {
+      "fd": "FD003",
+      "seed": 2024,
+      "test_engines": 100,
+      "max_abs_prediction_difference": 3.562011713142965e-06
+    },
+    {
+      "fd": "FD003",
+      "seed": 137,
+      "test_engines": 100,
+      "max_abs_prediction_difference": 3.8037109391098056e-06
+    },
+    {
+      "fd": "FD003",
+      "seed": 123,
+      "test_engines": 100,
+      "max_abs_prediction_difference": 3.681640620811777e-06
+    },
+    {
+      "fd": "FD003",
+      "seed": 12345,
+      "test_engines": 100,
+      "max_abs_prediction_difference": 3.7329101587602054e-06
+    },
+    {
+      "fd": "FD004",
+      "seed": 3407,
+      "test_engines": 248,
+      "max_abs_prediction_difference": 3.7988281320622264e-06
+    },
+    {
+      "fd": "FD004",
+      "seed": 2024,
+      "test_engines": 248,
+      "max_abs_prediction_difference": 3.8061523497390226e-06
+    },
+    {
+      "fd": "FD004",
+      "seed": 137,
+      "test_engines": 248,
+      "max_abs_prediction_difference": 3.688964838488573e-06
+    },
+    {
+      "fd": "FD004",
+      "seed": 123,
+      "test_engines": 248,
+      "max_abs_prediction_difference": 3.723144530454192e-06
+    },
+    {
+      "fd": "FD004",
+      "seed": 12345,
+      "test_engines": 248,
+      "max_abs_prediction_difference": 5.932617199277956e-06
+    }
+  ]
+}

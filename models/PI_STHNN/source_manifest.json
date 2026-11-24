@@ -1,0 +1,34 @@
+{
+  "source": {
+    "base_model.py": "72b7b63554c2f407d4a32daf28ec3f18be76fe0487c92dba69c211218213f857",
+    "base_parameters.json": "685555d44d2fced334942ba837f339e55d4af0cd6e50893faa4da5e2a513dc79",
+    "config.json": "efc0861ca5c3e1687b6748de165d23aebebb18843dc71559bf05c12673cce4b3",
+    "data.py": "1fc3cf576c14d6cb9e17512df0c3dae274558da82f5033ad009162af64c7a482",
+    "model.py": "5066c753f1f0e4e87e271ddcefcc8d19201fa05df41223e6cb4bfba335c92271",
+    "normalize_data.py": "461ababb2dfdb2e77f3ff6f7bcca2fbc2f9a129ea450207d096f90ef7516d56a",
+    "PRECHECK.json": "b0b369e6e6a0f02a3974be64e7ab27e31c178a36ff7c55524003ab4f8420f180",
+    "release_paths.py": "c9555fa4b527612bb1c471aad6339465f58b4da8efc5014eaac021bae46ee482",
+    "selection.json": "cce1b81ef4f33203e624427982a4b31af508478f47e6a8aff267be6ddc9ddece",
+    "selection.sha256": "4d74493c6f21318d7f98739c2fbf7adbc5554cd740f22111459be6c5ad2844f0",
+    "study_data.py": "840db5940702b4a2f76355776155ff3ce076ffb20d3681c4c14774bb2e58f0e2",
+    "study_protocol.json": "92ef1e93d04797e5a5eb91665a82fae4f2d4af1e79f5adf615b56ed34d16a9a5",
+    "train.py": "51c7366ca92627df992906fc6280f607dbc249133bc18abe3537ccd496ea2943",
+    "train_normalized.py": "3abf43476c055c1edff9ef19a61de3ecc063f6ba50a06f625dbcf9181528724f",
+    "train_study.py": "f2ab41dd9ea0299ca97339a2547c4b5022d4fd703d04381575370576c13c4b1c",
+    "reference/strong_support_figure5.npy": "8f935746bdf17a35cbf118329dfdb3575cbcd69bcd4a3685bea0bd3894744e02"
+  },
+  "data": {
+    "RUL_FD001.txt": "a19c8ec94931949d0485bdc35118206e9c81c4547b422efb9cf86f4ceddbceca",
+    "RUL_FD002.txt": "c851dd96a6ea6998d3c4a8f834d3c8013aa90e93a6ed950dc826ad0655b2906b",
+    "RUL_FD003.txt": "df1e0566306b174a2de41c67a3e7a51877889598b78643fc3e5685259091b7cb",
+    "RUL_FD004.txt": "196b836b85a95ac7fdbbf29c5fdf1657382eafa445644d114ffaaf50dc2975e1",
+    "test_FD001.txt": "3cda7109ce17bafb5443f2ac926cfcf88154b941b8c4cf95eb55d1ddd6f52851",
+    "test_FD002.txt": "de7b5bf7e998a985c378488480528b7c02cff1406a46740def362dda8d9b4e02",
+    "test_FD003.txt": "299babd63c8d987cef079c4a425429f33b3a34797d803bbe2ad48c29dbd0d790",
+    "test_FD004.txt": "1dc675fff0624bac10786927c6715b37d1297657137400d2b1a3138d777a3ba5",
+    "train_FD001.txt": "963b5e22825b34d8b21c69e1aeb4af3e647050eb672ee8834ba4b5d91d2de0f8",
+    "train_FD002.txt": "dac6c4dbc4e7c1bdeb5747da3d313d05c395bb99801b44a002b26a2ba13d788f",
+    "train_FD003.txt": "2abbe9968cc5e8eb091980f51b20f62bb4127336d3482cb52071d53bf23329e2",
+    "train_FD004.txt": "27ef6160b6a1dcb2613a88de9c239f763b223f02cdc41dc5cdedc5dc189b6218"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "effects": {
+    "FD002": {
+      "relative_validation_rmse": -0.08265080757870269,
+      "relative_validation_nasa": -0.2400371331961546,
+      "passed": true,
+      "validation_rmse": 12.127813633365681,
+      "reference_validation_rmse": 13.220498511973313
+    },
+    "FD004": {
+      "relative_validation_rmse": -0.16062853699378243,
+      "relative_validation_nasa": -0.4735727061144993,
+      "passed": true,
+      "validation_rmse": 15.16642566533242,
+      "reference_validation_rmse": 18.06878877084254
+    }
+  },
+  "official_labels_used": false,
+  "rule": "Fixed in protocol.json before training",
+  "screen_failures": [],
+  "exit_warnings": [],
+  "selected": "paper_window"
+}

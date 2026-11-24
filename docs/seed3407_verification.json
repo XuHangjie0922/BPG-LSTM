@@ -1,0 +1,110 @@
+{
+  "passed": true,
+  "completed_fresh_runs": 8,
+  "final_common_seeds": [
+    3407,
+    2024,
+    137,
+    123,
+    12345
+  ],
+  "retained_cases": 92,
+  "replaced_cases": 8,
+  "old3047_results_preserved": true,
+  "other_four_models_unchanged": true,
+  "all_preprocessing_hashes_identical_to_adopted_runs": true,
+  "all_initializations_new_and_actual_seed3407": true,
+  "all_full_budgets_and_validation_minima_verified": true,
+  "endpoint_count_five_baselines": 17675,
+  "endpoint_count_six_models": 21210,
+  "cases": [
+    {
+      "model": "CNN_LSTM_DA",
+      "fd": "FD001",
+      "seed": 3407,
+      "epochs": 167,
+      "native_checkpoint_sha256": "855ff34c082184497f9c8d35c266b06eb8dc7e31f3777408573fd2c94a2e0ca9",
+      "actual_torch_seed": 3407,
+      "actual_cuda_seed": 3407,
+      "preprocessing_parity": true,
+      "validation_selection_verified": true
+    },
+    {
+      "model": "CNN_LSTM_DA",
+      "fd": "FD002",
+      "seed": 3407,
+      "epochs": 245,
+      "native_checkpoint_sha256": "2c802ea60ff8dc39271a505fefe0aa10dcac37488df0b4487b4e8b5ca864a96a",
+      "actual_torch_seed": 3407,
+      "actual_cuda_seed": 3407,
+      "preprocessing_parity": true,
+      "validation_selection_verified": true
+    },
+    {
+      "model": "CNN_LSTM_DA",
+      "fd": "FD003",
+      "seed": 3407,
+      "epochs": 120,
+      "native_checkpoint_sha256": "315d135c7d882abcf004a91c98b801a8e1687139b3b18d3249ddd7f7b547306a",
+      "actual_torch_seed": 3407,
+      "actual_cuda_seed": 3407,
+      "preprocessing_parity": true,
+      "validation_selection_verified": true
+    },
+    {
+      "model": "CNN_LSTM_DA",
+      "fd": "FD004",
+      "seed": 3407,
+      "epochs": 198,
+      "native_checkpoint_sha256": "26545a8c486790a4f24c898bcd8e3a7090b4c6cc0e0d5436872812ad348f27a7",
+      "actual_torch_seed": 3407,
+      "actual_cuda_seed": 3407,
+      "preprocessing_parity": true,
+      "validation_selection_verified": true
+    },
+    {
+      "model": "PI_STHNN",
+      "fd": "FD001",
+      "seed": 3407,
+      "epochs": 50,
+      "native_checkpoint_sha256": "fe5dd2296f183983fae5bb1a3d9308717f9629a61cadd7a292d439dab80c3217",
+      "actual_torch_seed": 3407,
+      "actual_cuda_seed": 3407,
+      "preprocessing_parity": true,
+      "validation_selection_verified": true
+    },
+    {
+      "model": "PI_STHNN",
+      "fd": "FD002",
+      "seed": 3407,
+      "epochs": 50,
+      "native_checkpoint_sha256": "56a3e108d3508d96c2dc353368b3e4b6e807536ca33ce190ba7f007a536c0cc7",
+      "actual_torch_seed": 3407,
+      "actual_cuda_seed": 3407,
+      "preprocessing_parity": true,
+      "validation_selection_verified": true
+    },
+    {
+      "model": "PI_STHNN",
+      "fd": "FD003",
+      "seed": 3407,
+      "epochs": 50,
+      "native_checkpoint_sha256": "5653a215dd8298ad3a4482e092750bd7df0d712106d533cb0ca780f6a6ff4138",
+      "actual_torch_seed": 3407,
+      "actual_cuda_seed": 3407,
+      "preprocessing_parity": true,
+      "validation_selection_verified": true
+    },
+    {
+      "model": "PI_STHNN",
+      "fd": "FD004",
+      "seed": 3407,
+      "epochs": 50,
+      "native_checkpoint_sha256": "7b18b57d96e5bab3686efe6fe9d4012edc1717c2c8869686bba768a323cd9144",
+      "actual_torch_seed": 3407,
+      "actual_cuda_seed": 3407,
+      "preprocessing_parity": true,
+      "validation_selection_verified": true
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "models": [
+    {
+      "model": "ASTHGNN",
+      "source": {
+        "attention_core.py": "4626869690725dee30ca8f2c957bebf940c3cc7bbb6afeaca5377747a3762ee9",
+        "config.json": "da21c85833071271d895a11f6c7a0db76e3716f78d0c232afa6dd49519049f58",
+        "data.py": "aa74f8eab274cc41a0556952ffbc2c72b0839e78eceb88339a6beab2a19843fc",
+        "model.py": "a5b4cac3cd370f0ef190580986c6f7a075100ed69ef31d1f0b8306d6b9478cb0",
+        "prefix_core.py": "3dbf190dcb7c56b78d191f88ec81fa1bcb2b805499d6eee79bfb6edfbbf36927",
+        "prefix_data.py": "8223462fa8c13a73e925d07951e6fe7f1c8eecefb10c2f02947ff2d0d1d6a90b",
+        "release_paths.py": "c9555fa4b527612bb1c471aad6339465f58b4da8efc5014eaac021bae46ee482",
+        "repair_core.py": "287fb62339f4c129864aad73ed399a6f679cf501d43f7843f580664ff8d4c72f",
+        "sigmoid.py": "4d15c2d98dd63af45e30630b9c2d3d5daf6096d86bf237f58d6958e475f4e40b",
+        "train.py": "fe947048aede98e21a98521be1394a7d4f7265d4cd49769581ce7600cb3ac876"
+      }
+    },
+    {
+      "model": "BPG_LSTM",
+      "source": {
+        "config.json": "4e7d409cc9639ddad9ae900206434b663ae2095dba3cd4c79cf3d7da29f7e129",
+        "run.py": "879b9536f43c87bc4d170375759ddf0441a097f3972f73a756ffe142180a8d3f",
+        "src/losses.py": "68e2052b06a86006bcec5c5ef14f14b55cc18d7dbb93ba19f92f989b818553b9",
+        "src/metrics.py": "1c4260a84f77815d62084d3584bfe1426a20c61ef304de9cdf63084ea69b0560",
+        "src/train_condition_brdr_physics_gate_rul.py": "72ca4f3e99770b60880076b2504d2a3b6d12cc9ff2192bf0979a0c84af18d6dc",
+        "src/train_lstm_baseline.py": "5344696ddca94803892433b4ebe7bbb93ada5cfe33fa0bd14f0b3d8db039bfa9",
+        "src/train_pinn_rul.py": "069a6fc3b67b7a97152ef0aadc34ada2435ad4a7f4247f438a0c9ca6c73fad4b",
+        "src/train_stage_condition_brdr_pinn_rul.py": "625c722c4d0254c2dbac13df1b620ddd85d1eaaa104adce7a0b1c716e4a4dc91"
+      }
+    },
+    {
+      "model": "CNN_LSTM_DA",
+      "source": {
+        "adaptation.py": "641c8fe84164456700c6102222c1d258ce56ad1fe62e98052af75e2a7e61f80f",
+        "model.py": "9eb21e14942e27e456e554f30e00f3f91de79df7a656d61a11749441f9156b1f",
+        "release_paths.py": "c9555fa4b527612bb1c471aad6339465f58b4da8efc5014eaac021bae46ee482",
+        "train.py": "1189b07374c40a7cf97f6c13d1c37e70c880bf579adf759e03e2d267c843bd3b"
+      }
+    },
+    {
+      "model": "PI_STHNN",
+      "source": {
+        "base_model.py": "72b7b63554c2f407d4a32daf28ec3f18be76fe0487c92dba69c211218213f857",
+        "base_parameters.json": "685555d44d2fced334942ba837f339e55d4af0cd6e50893faa4da5e2a513dc79",
+        "config.json": "efc0861ca5c3e1687b6748de165d23aebebb18843dc71559bf05c12673cce4b3",
+        "data.py": "1fc3cf576c14d6cb9e17512df0c3dae274558da82f5033ad009162af64c7a482",
+        "model.py": "5066c753f1f0e4e87e271ddcefcc8d19201fa05df41223e6cb4bfba335c92271",
+        "normalize_data.py": "461ababb2dfdb2e77f3ff6f7bcca2fbc2f9a129ea450207d096f90ef7516d56a",
+        "PRECHECK.json": "b0b369e6e6a0f02a3974be64e7ab27e31c178a36ff7c55524003ab4f8420f180",
+        "release_paths.py": "c9555fa4b527612bb1c471aad6339465f58b4da8efc5014eaac021bae46ee482",
+        "selection.json": "cce1b81ef4f33203e624427982a4b31af508478f47e6a8aff267be6ddc9ddece",
+        "selection.sha256": "4d74493c6f21318d7f98739c2fbf7adbc5554cd740f22111459be6c5ad2844f0",
+        "study_data.py": "840db5940702b4a2f76355776155ff3ce076ffb20d3681c4c14774bb2e58f0e2",
+        "study_protocol.json": "92ef1e93d04797e5a5eb91665a82fae4f2d4af1e79f5adf615b56ed34d16a9a5",
+        "train.py": "51c7366ca92627df992906fc6280f607dbc249133bc18abe3537ccd496ea2943",
+        "train_normalized.py": "3abf43476c055c1edff9ef19a61de3ecc063f6ba50a06f625dbcf9181528724f",
+        "train_study.py": "f2ab41dd9ea0299ca97339a2547c4b5022d4fd703d04381575370576c13c4b1c",
+        "reference/strong_support_figure5.npy": "8f935746bdf17a35cbf118329dfdb3575cbcd69bcd4a3685bea0bd3894744e02"
+      }
+    },
+    {
+      "model": "STFA",
+      "source": {
+        "config.json": "23b3fb5d867f844b812788e233c7f083ff92b64b55db0d4fe35c9f18f8424654",
+        "data.py": "896e8d99f94259ecd96d94b10606bf4684238eacf4458053e1796cce3d23a4f7",
+        "model.py": "4230c3bc1d396f259f8e8cf57c57d1626f0f761d85b3859b86b766a1a6c2c644",
+        "release_paths.py": "c9555fa4b527612bb1c471aad6339465f58b4da8efc5014eaac021bae46ee482",
+        "train.py": "931eec1f9343e4cac36544300b2d2fb7f9a856998cb8b9e1836778a872e513da"
+      }
+    },
+    {
+      "model": "STHNN",
+      "source": {
+        "data.py": "e67e5c9ab7a06348d1a941841b7606f7c1f7c7d4f958c392f2f89a6d0b4e481b",
+        "metrics.py": "37d443e6c4112c1560d61f733375895ad706733bfaabcbe19308fd7958d1d20d",
+        "model.py": "b9c11a0cc38e9de67f2d8360bab62d048b61b96dd6f38465c78603e24dd61b34",
+        "protocol.json": "27b901945bc8aa757ec37f02b08ee96f51026d969778d123d75e10d144f431e2",
+        "release_paths.py": "c9555fa4b527612bb1c471aad6339465f58b4da8efc5014eaac021bae46ee482",
+        "selection.json": "74565b9bf89e5d346e57f632a399ca54ea5669f659a55c43f2489429e112578d",
+        "selection.sha256": "85b3608e4178fba657315d111a94bdba2e20cdc61f816193631bf354b5d946c2",
+        "train.py": "b9f044e96749ee3e7005e92490d029e200901afb837ae55082b5cd36f04fc556",
+        "validation_reference_hashes.json": "d98201f2f71f20d372c03d28b7848f3a1f6d72f38e33fbc983fd413132f8ab55"
+      }
+    }
+  ],
+  "baselines": "Verified common-seed 3407 release",
+  "proposed_model": "See BPG_LSTM_provenance.json"
+}

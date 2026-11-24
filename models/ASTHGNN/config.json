@@ -1,0 +1,39 @@
+{
+  "seeds": [
+    3407,
+    2024,
+    137,
+    123,
+    12345
+  ],
+  "datasets": [
+    "FD001",
+    "FD002",
+    "FD003",
+    "FD004"
+  ],
+  "training_runs": 25,
+  "endpoint_evaluations": 20,
+  "model_rules": {
+    "FD001": "LeakyReLU, no prefix, full-val checkpoint",
+    "FD002": "sigmoid,25% prefix,mixed-val checkpoint",
+    "FD003": "sigmoid,25% prefix,mixed-val checkpoint",
+    "FD004": "LeakyReLU original+5% prefix; observed-length route"
+  },
+  "window": 60,
+  "cap": 125,
+  "channels": 32,
+  "hyperedges": 3,
+  "blocks": 3,
+  "temporal_layers": 6,
+  "lr": 0.001,
+  "batch_size": 64,
+  "maximum_epochs": 200,
+  "minimum_epochs": 40,
+  "patience": 25,
+  "data_split_seed": 42,
+  "fd004": "adapted checkpoint minimizes full-val RMSE with prefix RMSE<=same-seed original*1.05; alpha0,.25,.5,.75,1 selected on source-prefix RMSE with NASA guard",
+  "historical_seed_provenance": "same common seeds previously chosen using historical frozen-baseline results; no new seed exclusion or ranking",
+  "scope": "local per-subset adaptations, not one uniform configuration or verified original code; retrospective official benchmark, not independent validation",
+  "frozen_baseline": "unchanged"
+}

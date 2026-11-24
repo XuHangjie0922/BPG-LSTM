@@ -1,0 +1,250 @@
+{
+  "status": "passed",
+  "version": "ASTHGNN_seed_dispatch_corrected_20261119",
+  "completed_cases": 10,
+  "completed": "2026-11-20T08:58:59+08:00",
+  "model_structure_changed": false,
+  "preprocessing_optimizer_budget_and_selection_unchanged": true,
+  "actual_initialization_proofs": [
+    {
+      "fd": "FD001",
+      "seed": 3407,
+      "stages": [
+        {
+          "stage": "leaky_prefix0",
+          "seed": 3407,
+          "model_parameter_sha256": "2dabc4305d552eb1aaf01e07cef39c239f8349a8c7245dd51c2dd63408991206",
+          "parameter_count": 34385,
+          "attention": "leaky"
+        }
+      ],
+      "actual_rng_state_snapshots_saved": true,
+      "first_training_batch_hashes_saved": true,
+      "preprocessing_and_validation_identical_to_previous_version": true
+    },
+    {
+      "fd": "FD001",
+      "seed": 2024,
+      "stages": [
+        {
+          "stage": "leaky_prefix0",
+          "seed": 2024,
+          "model_parameter_sha256": "1e689f8d880d106645a84cbfad310cb4fe53138c463c0f5430c416c426339f77",
+          "parameter_count": 34385,
+          "attention": "leaky"
+        }
+      ],
+      "actual_rng_state_snapshots_saved": true,
+      "first_training_batch_hashes_saved": true,
+      "preprocessing_and_validation_identical_to_previous_version": true
+    },
+    {
+      "fd": "FD001",
+      "seed": 137,
+      "stages": [
+        {
+          "stage": "leaky_prefix0",
+          "seed": 137,
+          "model_parameter_sha256": "3dd57a3368d2ef389e3f496b9ecc66fd197e05cb8f89d44bf10d96672d656f0d",
+          "parameter_count": 34385,
+          "attention": "leaky"
+        }
+      ],
+      "actual_rng_state_snapshots_saved": true,
+      "first_training_batch_hashes_saved": true,
+      "preprocessing_and_validation_identical_to_previous_version": true
+    },
+    {
+      "fd": "FD001",
+      "seed": 123,
+      "stages": [
+        {
+          "stage": "leaky_prefix0",
+          "seed": 123,
+          "model_parameter_sha256": "e30cbadfa5262aa214eba5e1267f6d18b42cce2911a065d17f792f013cfc4002",
+          "parameter_count": 34385,
+          "attention": "leaky"
+        }
+      ],
+      "actual_rng_state_snapshots_saved": true,
+      "first_training_batch_hashes_saved": true,
+      "preprocessing_and_validation_identical_to_previous_version": true
+    },
+    {
+      "fd": "FD001",
+      "seed": 12345,
+      "stages": [
+        {
+          "stage": "leaky_prefix0",
+          "seed": 12345,
+          "model_parameter_sha256": "2c58ce0ba8894fdfadda2b6a3ef0bd32954b9a23d5163f94978797a6bc2d6f33",
+          "parameter_count": 34385,
+          "attention": "leaky"
+        }
+      ],
+      "actual_rng_state_snapshots_saved": true,
+      "first_training_batch_hashes_saved": true,
+      "preprocessing_and_validation_identical_to_previous_version": true
+    },
+    {
+      "fd": "FD004",
+      "seed": 3407,
+      "stages": [
+        {
+          "stage": "leaky_prefix0",
+          "seed": 3407,
+          "model_parameter_sha256": "2dabc4305d552eb1aaf01e07cef39c239f8349a8c7245dd51c2dd63408991206",
+          "parameter_count": 34385,
+          "attention": "leaky"
+        },
+        {
+          "stage": "leaky_prefix5",
+          "seed": 3407,
+          "model_parameter_sha256": "2dabc4305d552eb1aaf01e07cef39c239f8349a8c7245dd51c2dd63408991206",
+          "parameter_count": 34385,
+          "attention": "leaky"
+        }
+      ],
+      "actual_rng_state_snapshots_saved": true,
+      "first_training_batch_hashes_saved": true,
+      "preprocessing_and_validation_identical_to_previous_version": true
+    },
+    {
+      "fd": "FD004",
+      "seed": 2024,
+      "stages": [
+        {
+          "stage": "leaky_prefix0",
+          "seed": 2024,
+          "model_parameter_sha256": "1e689f8d880d106645a84cbfad310cb4fe53138c463c0f5430c416c426339f77",
+          "parameter_count": 34385,
+          "attention": "leaky"
+        },
+        {
+          "stage": "leaky_prefix5",
+          "seed": 2024,
+          "model_parameter_sha256": "1e689f8d880d106645a84cbfad310cb4fe53138c463c0f5430c416c426339f77",
+          "parameter_count": 34385,
+          "attention": "leaky"
+        }
+      ],
+      "actual_rng_state_snapshots_saved": true,
+      "first_training_batch_hashes_saved": true,
+      "preprocessing_and_validation_identical_to_previous_version": true
+    },
+    {
+      "fd": "FD004",
+      "seed": 137,
+      "stages": [
+        {
+          "stage": "leaky_prefix0",
+          "seed": 137,
+          "model_parameter_sha256": "3dd57a3368d2ef389e3f496b9ecc66fd197e05cb8f89d44bf10d96672d656f0d",
+          "parameter_count": 34385,
+          "attention": "leaky"
+        },
+        {
+          "stage": "leaky_prefix5",
+          "seed": 137,
+          "model_parameter_sha256": "3dd57a3368d2ef389e3f496b9ecc66fd197e05cb8f89d44bf10d96672d656f0d",
+          "parameter_count": 34385,
+          "attention": "leaky"
+        }
+      ],
+      "actual_rng_state_snapshots_saved": true,
+      "first_training_batch_hashes_saved": true,
+      "preprocessing_and_validation_identical_to_previous_version": true
+    },
+    {
+      "fd": "FD004",
+      "seed": 123,
+      "stages": [
+        {
+          "stage": "leaky_prefix0",
+          "seed": 123,
+          "model_parameter_sha256": "e30cbadfa5262aa214eba5e1267f6d18b42cce2911a065d17f792f013cfc4002",
+          "parameter_count": 34385,
+          "attention": "leaky"
+        },
+        {
+          "stage": "leaky_prefix5",
+          "seed": 123,
+          "model_parameter_sha256": "e30cbadfa5262aa214eba5e1267f6d18b42cce2911a065d17f792f013cfc4002",
+          "parameter_count": 34385,
+          "attention": "leaky"
+        }
+      ],
+      "actual_rng_state_snapshots_saved": true,
+      "first_training_batch_hashes_saved": true,
+      "preprocessing_and_validation_identical_to_previous_version": true
+    },
+    {
+      "fd": "FD004",
+      "seed": 12345,
+      "stages": [
+        {
+          "stage": "leaky_prefix0",
+          "seed": 12345,
+          "model_parameter_sha256": "2c58ce0ba8894fdfadda2b6a3ef0bd32954b9a23d5163f94978797a6bc2d6f33",
+          "parameter_count": 34385,
+          "attention": "leaky"
+        },
+        {
+          "stage": "leaky_prefix5",
+          "seed": 12345,
+          "model_parameter_sha256": "2c58ce0ba8894fdfadda2b6a3ef0bd32954b9a23d5163f94978797a6bc2d6f33",
+          "parameter_count": 34385,
+          "attention": "leaky"
+        }
+      ],
+      "actual_rng_state_snapshots_saved": true,
+      "first_training_batch_hashes_saved": true,
+      "preprocessing_and_validation_identical_to_previous_version": true
+    }
+  ],
+  "source_change": {
+    "version": "ASTHGNN_seed_dispatch_corrected_20261119",
+    "changed_files": [
+      "repair_core.py",
+      "source_manifest.json",
+      "train.py"
+    ],
+    "model_structure_changed": false,
+    "model_source_sha256": "a5b4cac3cd370f0ef190580986c6f7a075100ed69ef31d1f0b8306d6b9478cb0",
+    "preprocessing_optimizer_budget_and_selection_unchanged": true,
+    "correction": "Worker binds TRAINING_SEED; repair_core.seed reads it instead of hardcoded42.",
+    "baseline_source_hashes": {
+      "attention_core.py": "4626869690725dee30ca8f2c957bebf940c3cc7bbb6afeaca5377747a3762ee9",
+      "config.json": "da21c85833071271d895a11f6c7a0db76e3716f78d0c232afa6dd49519049f58",
+      "data.py": "aa74f8eab274cc41a0556952ffbc2c72b0839e78eceb88339a6beab2a19843fc",
+      "model.py": "a5b4cac3cd370f0ef190580986c6f7a075100ed69ef31d1f0b8306d6b9478cb0",
+      "prefix_core.py": "3dbf190dcb7c56b78d191f88ec81fa1bcb2b805499d6eee79bfb6edfbbf36927",
+      "prefix_data.py": "8223462fa8c13a73e925d07951e6fe7f1c8eecefb10c2f02947ff2d0d1d6a90b",
+      "release_paths.py": "c9555fa4b527612bb1c471aad6339465f58b4da8efc5014eaac021bae46ee482",
+      "repair_core.py": "697ef12e9394b14cb22aefe65dc530fbe65deaeea508da9489d5e0dd34577c75",
+      "sigmoid.py": "4d15c2d98dd63af45e30630b9c2d3d5daf6096d86bf237f58d6958e475f4e40b",
+      "source_manifest.json": "d69b649e1f9e649d49d8fe266803ed40013b211816265d75c553bdb889274b99",
+      "train.py": "3f668340c702d478af6db65ceb31f17d10716be73f65ecaee25f22ed832f00a8"
+    },
+    "final_source_hashes": {
+      "requirements.txt": "7f84ec6b6a0181d0ba32c3ab7375f2a10ed1a12e0af2d21fa97a3b7d945c6951",
+      "models/ASTHGNN/attention_core.py": "4626869690725dee30ca8f2c957bebf940c3cc7bbb6afeaca5377747a3762ee9",
+      "models/ASTHGNN/config.json": "da21c85833071271d895a11f6c7a0db76e3716f78d0c232afa6dd49519049f58",
+      "models/ASTHGNN/data.py": "aa74f8eab274cc41a0556952ffbc2c72b0839e78eceb88339a6beab2a19843fc",
+      "models/ASTHGNN/model.py": "a5b4cac3cd370f0ef190580986c6f7a075100ed69ef31d1f0b8306d6b9478cb0",
+      "models/ASTHGNN/prefix_core.py": "3dbf190dcb7c56b78d191f88ec81fa1bcb2b805499d6eee79bfb6edfbbf36927",
+      "models/ASTHGNN/prefix_data.py": "8223462fa8c13a73e925d07951e6fe7f1c8eecefb10c2f02947ff2d0d1d6a90b",
+      "models/ASTHGNN/release_paths.py": "c9555fa4b527612bb1c471aad6339465f58b4da8efc5014eaac021bae46ee482",
+      "models/ASTHGNN/repair_core.py": "287fb62339f4c129864aad73ed399a6f679cf501d43f7843f580664ff8d4c72f",
+      "models/ASTHGNN/sigmoid.py": "4d15c2d98dd63af45e30630b9c2d3d5daf6096d86bf237f58d6958e475f4e40b",
+      "models/ASTHGNN/source_manifest.json": "71e11ff424960aca7ecc6bcc9c6916bc862b50fbb14e3bbd1a0a79679ca2f70e",
+      "models/ASTHGNN/train.py": "fe947048aede98e21a98521be1394a7d4f7265d4cd49769581ce7600cb3ac876",
+      "models/ASTHGNN/references/ASTHGNN_2022_Adaptive_Spatio_Temporal_Graph_Information_Fusion_for_RUL_Prediction.pdf": "c0305223f39ad48fbcff92ef274745a1e188d6c8be37895150131e8068ef65cd",
+      "models/ASTHGNN/references/README.md": "02fbe5ce5791b8ec9024a1b017cbbcddb7f524fa82f2043064259357e30901e1"
+    }
+  },
+  "old_fd001_fd004_seed_statistics_superseded": true,
+  "FD002_FD003_results_unchanged": true,
+  "other_models_unchanged": true,
+  "clean_environment_installation_not_tested": true
+}

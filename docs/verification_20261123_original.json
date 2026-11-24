@@ -1,0 +1,332 @@
+{
+  "status": "passed",
+  "models": [
+    {
+      "checkpoints": 20,
+      "all_strict_loads": true,
+      "initialization_matches_trained_run": [
+        {
+          "fd": "FD001",
+          "seed": 3047,
+          "matched": true
+        },
+        {
+          "fd": "FD001",
+          "seed": 2024,
+          "matched": true
+        },
+        {
+          "fd": "FD001",
+          "seed": 137,
+          "matched": true
+        },
+        {
+          "fd": "FD001",
+          "seed": 123,
+          "matched": true
+        },
+        {
+          "fd": "FD001",
+          "seed": 12345,
+          "matched": true
+        },
+        {
+          "fd": "FD002",
+          "seed": 3047,
+          "matched": true
+        },
+        {
+          "fd": "FD002",
+          "seed": 2024,
+          "matched": true
+        },
+        {
+          "fd": "FD002",
+          "seed": 137,
+          "matched": true
+        },
+        {
+          "fd": "FD002",
+          "seed": 123,
+          "matched": true
+        },
+        {
+          "fd": "FD002",
+          "seed": 12345,
+          "matched": true
+        },
+        {
+          "fd": "FD003",
+          "seed": 3047,
+          "matched": true
+        },
+        {
+          "fd": "FD003",
+          "seed": 2024,
+          "matched": true
+        },
+        {
+          "fd": "FD003",
+          "seed": 137,
+          "matched": true
+        },
+        {
+          "fd": "FD003",
+          "seed": 123,
+          "matched": true
+        },
+        {
+          "fd": "FD003",
+          "seed": 12345,
+          "matched": true
+        },
+        {
+          "fd": "FD004",
+          "seed": 3047,
+          "matched": true
+        },
+        {
+          "fd": "FD004",
+          "seed": 2024,
+          "matched": true
+        },
+        {
+          "fd": "FD004",
+          "seed": 137,
+          "matched": true
+        },
+        {
+          "fd": "FD004",
+          "seed": 123,
+          "matched": true
+        },
+        {
+          "fd": "FD004",
+          "seed": 12345,
+          "matched": true
+        }
+      ],
+      "wcMMD_value_and_gradient_exact_parity": true,
+      "data_parity": [
+        {
+          "fd": "FD001",
+          "all_five_data_hashes_identical": true
+        },
+        {
+          "fd": "FD002",
+          "all_five_data_hashes_identical": true
+        },
+        {
+          "fd": "FD003",
+          "all_five_data_hashes_identical": true
+        },
+        {
+          "fd": "FD004",
+          "all_five_data_hashes_identical": true
+        }
+      ],
+      "model": "CNN_LSTM_DA",
+      "max_checkpoint_prediction_difference": 0.0,
+      "CLI_import_passed": true,
+      "dry_run_cases": 20
+    },
+    {
+      "checkpoints": 20,
+      "all_strict_loads": true,
+      "initialization_matches_trained_run": [
+        {
+          "fd": "FD001",
+          "seed": 3047,
+          "matched": true
+        },
+        {
+          "fd": "FD001",
+          "seed": 2024,
+          "matched": true
+        },
+        {
+          "fd": "FD001",
+          "seed": 137,
+          "matched": true
+        },
+        {
+          "fd": "FD001",
+          "seed": 123,
+          "matched": true
+        },
+        {
+          "fd": "FD001",
+          "seed": 12345,
+          "matched": true
+        },
+        {
+          "fd": "FD002",
+          "seed": 3047,
+          "matched": true
+        },
+        {
+          "fd": "FD002",
+          "seed": 2024,
+          "matched": true
+        },
+        {
+          "fd": "FD002",
+          "seed": 137,
+          "matched": true
+        },
+        {
+          "fd": "FD002",
+          "seed": 123,
+          "matched": true
+        },
+        {
+          "fd": "FD002",
+          "seed": 12345,
+          "matched": true
+        },
+        {
+          "fd": "FD003",
+          "seed": 3047,
+          "matched": true
+        },
+        {
+          "fd": "FD003",
+          "seed": 2024,
+          "matched": true
+        },
+        {
+          "fd": "FD003",
+          "seed": 137,
+          "matched": true
+        },
+        {
+          "fd": "FD003",
+          "seed": 123,
+          "matched": true
+        },
+        {
+          "fd": "FD003",
+          "seed": 12345,
+          "matched": true
+        },
+        {
+          "fd": "FD004",
+          "seed": 3047,
+          "matched": true
+        },
+        {
+          "fd": "FD004",
+          "seed": 2024,
+          "matched": true
+        },
+        {
+          "fd": "FD004",
+          "seed": 137,
+          "matched": true
+        },
+        {
+          "fd": "FD004",
+          "seed": 123,
+          "matched": true
+        },
+        {
+          "fd": "FD004",
+          "seed": 12345,
+          "matched": true
+        }
+      ],
+      "data_parity": [
+        {
+          "fd": "FD001",
+          "all_five_data_hashes_identical": true
+        },
+        {
+          "fd": "FD002",
+          "all_five_data_hashes_identical": true
+        },
+        {
+          "fd": "FD003",
+          "all_five_data_hashes_identical": true
+        },
+        {
+          "fd": "FD004",
+          "all_five_data_hashes_identical": true
+        }
+      ],
+      "model": "PI_STHNN",
+      "max_checkpoint_prediction_difference": 0.0,
+      "CLI_import_passed": true,
+      "dry_run_cases": 20
+    },
+    {
+      "checkpoints": 20,
+      "all_strict_loads": true,
+      "initialization_matches_trained_run": [],
+      "model": "STHNN",
+      "max_checkpoint_prediction_difference": 3.0517578125e-05,
+      "CLI_import_passed": true,
+      "dry_run_cases": 20
+    },
+    {
+      "checkpoints": 25,
+      "all_strict_loads": true,
+      "initialization_matches_trained_run": [],
+      "all_five_requested_seeds_reach_torch_initialization": true,
+      "model": "ASTHGNN",
+      "max_checkpoint_prediction_difference": 0.0,
+      "CLI_import_passed": true,
+      "dry_run_cases": 20
+    },
+    {
+      "checkpoints": 20,
+      "all_strict_loads": true,
+      "initialization_matches_trained_run": [],
+      "model": "STFA",
+      "max_checkpoint_prediction_difference": 0.0,
+      "CLI_import_passed": true,
+      "dry_run_cases": 20
+    }
+  ],
+  "training_cases": 100,
+  "selected_checkpoints": 105,
+  "final_CNN_and_PI_initialization_and_data_match_actual_trained_runs": true,
+  "full_training_after_packaging": false,
+  "fresh_dependency_install_tested": false,
+  "seed_sets": {
+    "CNN_LSTM_DA": [
+      3047,
+      2024,
+      137,
+      123,
+      12345
+    ],
+    "PI_STHNN": [
+      3047,
+      2024,
+      137,
+      123,
+      12345
+    ],
+    "STHNN": [
+      3407,
+      2024,
+      137,
+      123,
+      12345
+    ],
+    "ASTHGNN": [
+      3407,
+      2024,
+      137,
+      123,
+      12345
+    ],
+    "STFA": [
+      3407,
+      2024,
+      137,
+      123,
+      12345
+    ]
+  }
+}

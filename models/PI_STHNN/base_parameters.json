@@ -1,0 +1,22 @@
+{
+  "FD001": {
+    "lr": 0.001,
+    "weight_decay": 1e-05,
+    "dropout": 0.0
+  },
+  "FD002": {
+    "lr": 0.001,
+    "weight_decay": 1e-05,
+    "dropout": 0.0
+  },
+  "FD003": {
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "dropout": 0.0
+  },
+  "FD004": {
+    "lr": 0.0003,
+    "weight_decay": 0.001,
+    "dropout": 0.0
+  }
+}

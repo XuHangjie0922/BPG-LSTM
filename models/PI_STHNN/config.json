@@ -1,0 +1,45 @@
+{
+  "identity": "Final condition-wise minmax PI-STHNN with softmax fusion",
+  "screen_subsets": [
+    "FD002",
+    "FD004"
+  ],
+  "screen_seed": 42,
+  "final_seeds": [
+    3407,
+    2024,
+    137,
+    123,
+    12345
+  ],
+  "regimes": {
+    "FD001": 1,
+    "FD002": 6,
+    "FD003": 1,
+    "FD004": 6
+  },
+  "clustering": "Standardize only3 operating settings using fitting-engine statistics; KMeans6,random_state42,n_init10, fitted only to fitting engines. No health/RUL labels.",
+  "scaling": "Per fitted regime, minmax14 sensor channels to[-1,1]. Freeze centres/minima/spans for validation and official inference; no clipping or refitting. Degenerate fitted span<=1e-12 uses1.",
+  "unchanged": [
+    "same engine-disjoint split42",
+    "same common validation endpoints",
+    "windows35/60/54/80",
+    "stage2-selected lr/wd",
+    "LSTM3x256",
+    "TPA256",
+    "softmax fusion; same Kaiming query initialization",
+    "same GAT/SAGPooling and raw-data graph",
+    "MSE",
+    "RULcap125",
+    "batch256",
+    "50epochs",
+    "dropout0"
+  ],
+  "source_reference": "paper_alignment_study_20261110/screen/paper_window, same seed42 and common validation engines/cycles",
+  "selection": "Both FD002 and FD004 must complete50 epochs with finite gradients, reduce common validation RMSE by>=2% vs source reference, and not increase validation NASA by>20%. No candidate expansion or test-label selection.",
+  "failure": "If either fails the preset criteria, stop after2 source-only runs; retain all results.",
+  "pass": "Freeze this single preprocessing rule, retrain FD002 and FD004 for the same5 seeds:10 official-terminal runs. Pair with previous long-window reference using same5 seeds and common checkpoint rule.",
+  "single_condition": "FD001/FD003 use one regime and delegate exactly to the existing global minmax pipeline. Verify array/model equality; inherit their existing10 run results, explicitly marked reused rather than newly trained.",
+  "resource": "One CUDA worker, wait if free VRAM<2200MiB, never terminate unrelated processes",
+  "interpretation": "Preprocessing adaptation, not verified original author implementation. Internal exploratory selection and retrospective official evaluation, not independent validation. Frozen baseline and prior experiments unchanged."
+}

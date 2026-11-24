@@ -1,0 +1,1 @@
+Corrected common-seed results. Eight newly trained CNN_LSTM_DA/PI_STHNN seed3407 cases replace mistyped seed3047 cases; the other92 cases are unchanged. Same frozen models and source-validation checkpoint rules. Mean and sampleSD(ddof=1). Training protocols still differ across models. See docs/seed3407_verification.json.

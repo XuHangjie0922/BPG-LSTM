@@ -1,0 +1,52 @@
+{
+  "identity": "STHNN local reconstruction, not verified author implementation",
+  "architecture": "Existing initial time-preserving scalar-node reconstruction; model.py unchanged. Known table/residual/norm ambiguities remain.",
+  "screen_seed": 42,
+  "subsets": [
+    "FD001",
+    "FD002",
+    "FD003",
+    "FD004"
+  ],
+  "final_seeds": [
+    3407,
+    2024,
+    137,
+    123,
+    12345
+  ],
+  "candidates": {
+    "wd1e4": {
+      "lr": 0.001,
+      "wd": 0.0001
+    },
+    "slow_wd1e4": {
+      "lr": 0.0003,
+      "wd": 0.0001
+    }
+  },
+  "fallback": {
+    "lr": 0.001,
+    "wd": 0
+  },
+  "selection": "PerFD choose lowest validation RMSE among original seed42 and2 fixed candidates, candidate eligible only if validation NASA at RMSE-best checkpoint<=1.2x original. Use validation predictions only. No official metric selection.",
+  "epochs": 160,
+  "checkpoint": "minimum engine-held-out validation-window RMSE; no early stopping",
+  "unchanged": [
+    "batch128",
+    "split42",
+    "windows30/20/30/15",
+    "dropout0.2",
+    "Adam",
+    "cosineTmax20",
+    "cap125",
+    "conditionZscore",
+    "training-only cosine graph",
+    "MSE",
+    "all architecture and initialization choices"
+  ],
+  "official": "20 newly trained final runs, one terminal prediction per official engine, cap125; predictions saved before loading labels; raw metrics separate",
+  "fairness_limits": "Same historical5 seeds as our baseline; they were previously selected from10 using official outcomes. Retrospective paired comparison, not independent/unbiased evaluation. Equal reporting seeds does not imply identical tuning histories or exact author reproduction.",
+  "reporting": "Report all5, mean/sampleSD, per-engine paired errors; no seed replacement. Original paper numbers separately labeled literature values. Never label local reconstruction as confirmed original STHNN. No guarantee of recovering paper scores.",
+  "automatic_budget": "8 source-only screen runs then20 final runs; no other candidates or automatic retuning"
+}

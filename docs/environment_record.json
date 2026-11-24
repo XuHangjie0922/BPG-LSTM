@@ -1,0 +1,13 @@
+{
+  "python": "3.13.9",
+  "packages": {
+    "torch": "2.11.0+cu128",
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.6",
+    "torch-geometric": "2.7.0"
+  },
+  "recorded_training_device": "NVIDIA RTX4060 Laptop GPU / CUDA12.8",
+  "verification": "same available environment; fresh dependency installation not tested"
+}

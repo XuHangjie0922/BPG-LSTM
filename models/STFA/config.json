@@ -1,0 +1,39 @@
+{
+  "experiment": "STFA ordinary LSTM + GAT self loops; validation-selected five common seeds",
+  "seeds": [
+    3407,
+    2024,
+    137,
+    123,
+    12345
+  ],
+  "seed_provenance": "Historical common comparison seeds, retained unchanged; no STFA result-based screening.",
+  "subsets": [
+    "FD001",
+    "FD002",
+    "FD003",
+    "FD004"
+  ],
+  "windows": {
+    "FD001": 30,
+    "FD002": 20,
+    "FD003": 30,
+    "FD004": 15
+  },
+  "rul_cap": 125,
+  "epochs": 30,
+  "batch_size": 16,
+  "lr": 0.001,
+  "optimizer": "Adam defaults",
+  "loss": "raw-cycle terminal MSE",
+  "split": "fixed90/10 engine-disjoint split42, same IDs for all seeds",
+  "normalization": "fitting-engine-only global minmax[-1,1], no clipping or condition clustering",
+  "architecture": "Original model.py plus14 diagonal adjacency entries; standard native LSTM; no peepholes",
+  "checkpoint": "minimum source-validation window RMSE over epochs1..30; earliest epoch wins exact ties",
+  "checkpoint_metric": "validation_rmse",
+  "final_checkpoint": "epoch30 archival only",
+  "early_stopping": false,
+  "official_evaluation": "one last-window prediction per engine, all engines, NASA sum, no output clipping",
+  "interpretation": "Local reconstruction; checkpoint rule revised after prior benchmark audit; retrospective official benchmark, not independent validation.",
+  "summary": "All five seeds included; arithmetic mean and sample SD(ddof1); no replacement or best-seed selection."
+}
